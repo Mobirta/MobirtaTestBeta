@@ -43,7 +43,7 @@ class Uploader extends Component {
       this.setState(prevState => ({
         images: [...prevState.images, {
           name: file.name,    
-          url: `https://amplify-mobirtatest02-dev-1daaf-deployment.s3-website-us-east-1.amazonaws.com/${file.name}`
+          url: `http://amplify-mobirtatestbeta-dev-4f5cc-deployment.s3-website-us-east-1.amazonaws.com/${file.name}`
         }],
         uploadCompleted: true,
         isUploading: false
